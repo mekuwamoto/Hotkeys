@@ -1,3 +1,3 @@
-ctrl_f9 () {
-    
+ctrl_f9() {
+    return
 }
