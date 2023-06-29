@@ -1,7 +1,10 @@
+#include ./src/fs/textFileContent.ahk
 #include ./src/keyboard/setcapslockon.ahk
 #include ./src/languages/mssql.ahk
+#include ./src/others/displayCurrentColor.ahk
 #include ./src/others/guid.ahk
 
+#include ./src/keys/ctrl_f9.ahk
 ;*********************************************************************************
 ;                                  About
 ;*********************************************************************************
