@@ -1,3 +1,6 @@
+#include ./src/keyboard/setcapslockon.ahk
+#include ./src/languages/mssql.ahk
+
 ;*********************************************************************************
 ;                                  About
 ;*********************************************************************************
@@ -41,6 +44,19 @@ return
 ; Returns formatted current time HH:mm
 ::dt2::
     FormatTime, CurrentDateTime ,, HH:mm
+return
+
+;*********************************************************************************
+;                         SQL Server Text Replacements
+;*********************************************************************************
+; Set Capslock on if not on and returns "SELECT * FROM"
+::]s8::
+    selectall()    
+return
+
+; Set Capslock on if not on and returns "SELECT TOP 1000 * FROM"
+::]st8::
+    selectTop1000()
 return
 
 ;*********************************************************************************
