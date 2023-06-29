@@ -2,12 +2,14 @@
 #include ./src/fs/textFileContent.ahk
 #include ./src/keyboard/setcapslockon.ahk
 #include ./src/languages/mssql.ahk
-#include ./src/others/displayCurrentColor.ahk
+#include ./src/others/autoformat.ahk
+#include ./src/others/guid.ahk
 #include ./src/others/guid.ahk
 
 #include ./src/keys/alt_f9.ahk
 #include ./src/keys/ctrl_f9.ahk
 #include ./src/keys/shift_f9.ahk
+#include ./src/keys/ctrl_shif_f9.ahk
 ;*********************************************************************************
 ;                                  About
 ;*********************************************************************************
@@ -33,6 +35,9 @@
 
 ; Alt + F9
 !F9::alt_f9()
+
+; Control + Shift + F9
+^+F9::ctrl_shif_f9()
 
 ;*********************************************************************************
 ;                             Simple text replacements
