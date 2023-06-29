@@ -1,3 +1,4 @@
+#include ./src/fs/returnUserBaseDir.ahk
 #include ./src/fs/textFileContent.ahk
 #include ./src/keyboard/setcapslockon.ahk
 #include ./src/languages/mssql.ahk
@@ -22,6 +23,8 @@
 ;*********************************************************************************
 ;                             Main Controllers
 ;*********************************************************************************
+; Ctrl + F9
+^F9::ctrl_f9()
 
 ;*********************************************************************************
 ;                             Simple text replacements
@@ -73,4 +76,3 @@ return
 ::]guid::
     generateGuid()
 return
-
