@@ -1,5 +1,6 @@
 #include ./src/keyboard/setcapslockon.ahk
 #include ./src/languages/mssql.ahk
+#include ./src/others/guid.ahk
 
 ;*********************************************************************************
 ;                                  About
@@ -62,3 +63,8 @@ return
 ;*********************************************************************************
 ;                             Generating GUIDs
 ;*********************************************************************************
+; Generates new Guid, set value to clipboard and sends returns generated value
+::]guid::
+    generateGuid()
+return
+
