@@ -38,16 +38,19 @@
 ; Returns formatted current date dd/MM/yyyy
 ::]dt::
     FormatTime, CurrentDateTime ,, dd/MM/yyyy
+    SendInput %CurrentDateTime%
 return
 
 ; Returns formatted current date yyyyMMdd
 ::]dt2::
     FormatTime, CurrentDateTime ,, yyyyMMdd
+    SendInput %CurrentDateTime%
 return
 
 ; Returns formatted current time HH:mm
-::]dt2::
+::]hr::
     FormatTime, CurrentDateTime ,, HH:mm
+    SendInput %CurrentDateTime%
 return
 
 ;*********************************************************************************
