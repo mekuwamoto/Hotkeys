@@ -5,7 +5,9 @@
 #include ./src/others/displayCurrentColor.ahk
 #include ./src/others/guid.ahk
 
+#include ./src/keys/alt_f9.ahk
 #include ./src/keys/ctrl_f9.ahk
+#include ./src/keys/shift_f9.ahk
 ;*********************************************************************************
 ;                                  About
 ;*********************************************************************************
@@ -25,6 +27,12 @@
 ;*********************************************************************************
 ; Ctrl + F9
 ^F9::ctrl_f9()
+
+; Shift + F9
++F9::shift_f9()
+
+; Alt + F9
+!F9::alt_f9()
 
 ;*********************************************************************************
 ;                             Simple text replacements
