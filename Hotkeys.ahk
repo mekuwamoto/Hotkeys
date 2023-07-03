@@ -3,8 +3,10 @@
 #include ./src/keyboard/setcapslockon.ahk
 #include ./src/languages/mssql.ahk
 #include ./src/others/autoformat.ahk
+#include ./src/others/displayCurrentColor.ahk
+#include ./src/others/githubDesktop.ahk
 #include ./src/others/guid.ahk
-#include ./src/others/guid.ahk
+#include ./src/others/winActive.ahk
 
 #include ./src/keys/alt_f9.ahk
 #include ./src/keys/ctrl_f9.ahk
@@ -82,10 +84,21 @@ return
     selectTop1000()
 return
 
+
+;*********************************************************************************
+;                         Shell Text Replacements
+;*********************************************************************************
+::]gp::git pull
+::]ga::git add .
+::]gs::git status
+::]grh::git reset --hard HEAD~1
+::]grs::git reset --soft HEAD~1
+::]cd::code .
+
 ;*********************************************************************************
 ;                             Generating GUIDs
 ;*********************************************************************************
-; Generates new Guid, set value to clipboard and sends returns generated value
+; Generates new Guid, set value to clipboard and returns generated value
 ::]guid::
     generateGuid()
 return

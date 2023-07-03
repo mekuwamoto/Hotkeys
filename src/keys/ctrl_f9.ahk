@@ -20,6 +20,13 @@ ctrl_f9() {
         return
     }
 
+    ; If the current active window is Github Desktop, open browser on selected repository
+    IfWinActive ahk_exe GitHubDesktop.exe 
+    {
+        viewOnGithub()
+        return
+    }
+
     ;Default action : Reads file and returns text on C:\Users\<Username>\Hotkeys\ctrl_f9.txt
     Send % textFileContent(returnHotkeysDir() "ctrl_f9.txt")
     return
