@@ -1,18 +1,18 @@
 # Hotkeys
 
-This repository contains configurations for hotkeys I frequently use on Windows
+This repository contains configurations for hotkeys I frequently use on Windows. It was written to be used with Autohotkey v.1
 
 ## About AutoHotKey
 
 AutoHotkey is a free, open-source scripting language for Windows that allows users to easily create small to complex scripts for all kinds of tasks such as: form fillers, auto-clicking, macros, etc.
 
 -   Homepage: [https://www.autohotkey.com/](https://www.autohotkey.com/ "Go to autohotkey homepage")
--   Docs: [https://www.autohotkey.com/docs/v2/](https://www.autohotkey.com/docs/v2/ "Go to autohotkey docs page")
--   Download page: [https://www.autohotkey.com/download/](https://www.autohotkey.com/download/ "Directly download autohotkey")
+-   Docs: [https://www.autohotkey.com/docs/v1/](https://www.autohotkey.com/docs/v1/ "Go to autohotkey docs page")
+-   Download page: [https://www.autohotkey.com/download/](https://www.autohotkey.com/download/ "Download page")
 
 ## Getting Started
 
-1. [Download](https://www.autohotkey.com/download/ahk-v2.exe "download autohotkey") and install AutoHotKey v.2.0
+1. [Download](https://www.autohotkey.com/download/ahk-install.exe "download autohotkey") and install AutoHotKey v1.1.37
 2. Execute the following cmd/powershell commands:
 
 ```
